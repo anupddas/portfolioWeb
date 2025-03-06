@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #FFF2F2;
+  background-color: white;
 }
 html {
   font-size: 10px;
@@ -14,7 +14,8 @@ html {
 }
 a {
   text-decoration: none;
-  color: #2D336B;
+  /* For links, we use #003092 */
+  color: #003092;
 }
 
 .container {
@@ -30,7 +31,8 @@ img {
   object-fit: cover;
 }
 p {
-  color: #A9B5DF;
+  /* For text, we use #FFAB5B */
+  color: #FFAB5B;
   font-size: 2.4rem;
   font-family: para;
   margin-top: 5px;
@@ -41,14 +43,16 @@ p {
 .section-title {
   font-size: 4rem;
   font-weight: 300;
-  color: #7886C7;
+  /* For headings, we use #EB5B00 */
+  color: #EB5B00;
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   text-align: center;
 }
 .section-title span {
-  color: #2D336B;
+  /* For headings, we also use #EB5B00 */
+  color: #EB5B00;
 }
 
 .cta {
@@ -56,7 +60,8 @@ p {
   padding: 10px 30px;
   color: white;
   background-color: transparent;
-  border: 2px solid #2D336B;
+  /* Use link color for borders */
+  border: 2px solid #003092;
   border-radius: 2px;
   font-size: 2rem;
   text-transform: uppercase;
@@ -67,16 +72,19 @@ p {
 }
 .cta:hover {
   color: white;
-  background-color: #A9B5DF;
+  /* For hover and shadow effects, we use #00879E */
+  background-color: #00879E;
   transition: 0.5s;
 }
 .brand h1 {
   font-size: 3rem;
   text-transform: uppercase;
-  color: #7886C7;
+  /* For headings, use #EB5B00 */
+  color: #EB5B00;
 }
 .brand h1 span {
-  color: #2D336B;
+  /* For headings/links, use #EB5B00 */
+  color: #EB5B00;
 }
 
 /* Header section */
@@ -90,7 +98,8 @@ p {
 }
 #header .header {
   min-height: 8vh;
-  background-color: #2D336B;
+  /* Update header background to our link color */
+  background-color: #003092;
   transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -101,12 +110,14 @@ p {
   height: 100%;
   max-width: 1300px;
   padding: 0 10px;
-  background-color: #A9B5DF;
+  /* Set nav-bar background to white for clean look */
+  background-color: white;
 }
 #header .nav-list ul {
   list-style: none;
   position: absolute;
-  background-color: #7886C7;
+  /* For shadows/hover, we use #00879E */
+  background-color: #00879E;
   width: 100vw;
   height: 100vh;
   left: 100%;
@@ -127,7 +138,8 @@ p {
   font-weight: 500;
   letter-spacing: 0.2rem;
   text-decoration: none;
-  color: white;
+  /* Nav links use our link color */
+  color: #003092;
   text-transform: uppercase;
   padding: 20px;
   display: block;
@@ -138,7 +150,8 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  color: rgb(85, 3, 103);
+  /* For decorative overlay, using our link color */
+  color: #003092;
   font-size: 13rem;
   letter-spacing: 50px;
   z-index: -1;
@@ -149,7 +162,8 @@ p {
   letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-  color: #2D336B;
+  /* On hover, use our link color */
+  color: #003092;
 }
 #header .hamburger {
   height: 60px;
@@ -236,7 +250,8 @@ p {
   width: fit-content;
   font-size: 4rem;
   position: relative;
-  color: transparent;
+  /* For headings, use #EB5B00 */
+  color: #EB5B00;
   animation: text_reveal 0.5s ease forwards;
   animation-delay: 1s;
 }
@@ -256,7 +271,8 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: #7886C7;
+  /* For decorative box, using #00879E */
+  background-color: #00879E;
   animation: text_reveal_box 2.5s ease infinite;
   animation-delay: 3s;
 }
@@ -313,10 +329,11 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
+  /* For service overlay, using gradient with our new palette */
   background-image: linear-gradient(
     60deg,
-    #7886C7 0%,
-    #2D336B 100%
+    #003092 0%,
+    #00879E 100%
   );
   opacity: 0.5;
   z-index: -1;
@@ -328,12 +345,14 @@ p {
 }
 #services .service-item h1 {
   font-size: 2rem;
-  color: white;
+  /* For headings, use #EB5B00 */
+  color: #EB5B00;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 #services .service-item p {
-  color: white;
+  /* For text, use #FFAB5B */
+  color: #FFAB5B;
   text-align: left;
 }
 /* End Services Section */
@@ -372,10 +391,11 @@ p {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  /* For headings, use #EB5B00 */
   background-image: linear-gradient(
     60deg,
-    #7886C7 0%,
-    #2D336B 100%
+    #003092 0%,
+    #00879E 100%
   );
   color: white;
 }
@@ -433,12 +453,17 @@ p {
   font-weight: 500;
   letter-spacing: 0.2rem;
   margin-bottom: 10px;
+  /* For headings, use #EB5B00 */
+  color: #EB5B00;
 }
 #about .col-right p {
+  /* For text, use #FFAB5B */
+  color: #FFAB5B;
   margin-bottom: 20px;
 }
 #about .col-right .cta {
-  color: #A9B5DF;
+  /* For call-to-action text, use #FFAB5B */
+  color: #FFAB5B;
   margin-bottom: 50px;
   padding: 10px 20px;
   font-size: 2rem;
@@ -447,7 +472,7 @@ p {
   height: 100%;
   width: 100%;
   position: relative;
-  border: 10px solid #A9B5DF;
+  border: 10px solid #FFAB5B;
   border-radius: 10px;
 }
 #about .col-left .about-img::after {
@@ -457,7 +482,7 @@ p {
   top: 19px;
   height: 98%;
   width: 98%;
-  border: 7px solid #7886C7;
+  border: 7px solid #EB5B00;
   border-radius: 10px;
   z-index: -1;
 }
@@ -471,30 +496,28 @@ p {
   width: 90%;
 }
 #contact .contact-items {
-  /* max-width: 400px; */
   width: 100%;
 }
 #contact .contact-item {
-	background-image: linear-gradient(
+  background-image: linear-gradient(
     60deg,
-    #7886C7 0%,
-    #2D336B 100%
+    #003092 0%,
+    #00879E 100%
   );
   width: 80%;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   border-radius: 10px;
-  padding: 30px;
   margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0px 0px 18px 0 #7886C7;
+  box-shadow: 0px 0px 18px 0 #00879E;
   transition: 0.3s ease box-shadow;
 }
 #contact .contact-item:hover {
-  box-shadow: 0px 0px 20px 0 #2D336B;
+  box-shadow: 0px 0px 20px 0 #00879E;
 }
 #contact .icon {
   width: 70px;
@@ -502,14 +525,16 @@ p {
   margin-bottom: 10px;
 }
 #contact .contact-info h1 {
-  color: white;
+  /* For headings, use #EB5B00 */
+  color: #EB5B00;
   font-family: para;
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 5px;
 }
 #contact .contact-info h2 {
-  color: white;
+  /* For text, use #FFAB5B */
+  color: #FFAB5B;
   font-family: para;
   font-size: 1.3rem;
   line-height: 2rem;
@@ -521,8 +546,8 @@ p {
 #footer {
   background-image: linear-gradient(
     60deg,
-    #7886C7 0%,
-    #2D336B 100%
+    #003092 0%,
+    #00879E 100%
   );
 }
 #footer .footer {
@@ -532,8 +557,8 @@ p {
   padding-bottom: 10px;
 }
 #footer h2 {
+  /* For headings, use white for contrast if needed */
   color: white;
-
   font-weight: 500;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
@@ -549,7 +574,6 @@ p {
   width: 50px;
   margin: 0 5px;
 }
-
 #footer .social-item:hover img {
   filter: grayscale(0);
 }
@@ -588,7 +612,7 @@ p {
 }
 @keyframes text_reveal_name {
   100% {
-    color: rgb(31, 5, 133);
+    color: #003092;
     font-weight: 500;
   }
 }
@@ -652,7 +676,7 @@ p {
     top: 34px;
     height: 98%;
     width: 98%;
-    border: 10px solid #2D336B;
+    border: 10px solid #003092;
   }
   #about .col-right {
     text-align: left;
@@ -722,14 +746,13 @@ p {
     position: initial;
     display: block;
     height: auto;
-    width: -moz-fit-content;
     width: fit-content;
     background-color: transparent;
   }
   #header .nav-list ul li {
     display: inline-block;
   }
-  #header .nav-list ul li a {
+  #header .nav-list ul a {
     font-size: 1.8rem;
   }
   #header .nav-list ul a:after {
