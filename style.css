@@ -250,8 +250,6 @@ p {
   width: fit-content;
   font-size: 4rem;
   position: relative;
-  /* For headings, use #EB5B00 */
-  color: #EB5B00;
   animation: text_reveal 0.5s ease forwards;
   animation-delay: 1s;
 }
