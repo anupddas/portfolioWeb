@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', () => {
       year: '2026',
       title: 'McKinsey.org Forward Program',
       institution: 'McKinsey.org',
-      description: '',
+      description: 'McKinsey',
       image: 'Achievements/Forward2026.png',
       trophy: '🏆'
     },
@@ -474,7 +474,7 @@ document.addEventListener('DOMContentLoaded', () => {
       year: '2025',
       title: 'Introduction to Strategy Consulting',
       institution: 'BCG',
-      description: '',
+      description: 'BCG',
       image: 'Achievements/BCG.jpg',
       trophy: '🏆'
     },
