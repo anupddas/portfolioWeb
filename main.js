@@ -462,6 +462,24 @@ document.addEventListener('DOMContentLoaded', () => {
   const achievements = [
     {
       category: 'Professional',
+      year: '2026',
+      title: 'McKinsey.org Forward Program',
+      institution: 'McKinsey.org',
+      description: '',
+      image: 'Achievements/Forward2026.png',
+      trophy: '🏆'
+    },
+     {
+      category: 'Professional',
+      year: '2025',
+      title: 'Introduction to Strategy Consulting',
+      institution: 'BCG',
+      description: '',
+      image: 'Achievements/BCG.jpg',
+      trophy: '🏆'
+    },
+     {
+      category: 'Professional',
       year: '2024',
       title: 'Ideation Hackathon Winner',
       institution: 'AMTRON',
