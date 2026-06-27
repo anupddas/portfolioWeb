@@ -297,6 +297,9 @@ document.addEventListener('DOMContentLoaded', () => {
       category: 'Infrastructure & DevOps',
       icon: '⚙️',
       skills: [
+         { name: 'Docker', percent: 82 },
+         { name: 'Kubernetes', percent: 82 },
+         { name: 'Helm', percent: 80},
         { name: 'Terraform (IaC)', percent: 90 },
         { name: 'Linux Administration', percent: 88 },
         { name: 'Bash / Shell Scripting', percent: 85 },
